@@ -1,0 +1,199 @@
+<html>
+  <head>
+  <title>회원 가입</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+  <style>
+      #mid {
+          width: 435px;
+          height: 43px;
+          margin-top: 11px;
+          border: 1px solid #DADADA;
+          outline: none;
+          
+      }
+
+      #pwd {
+          width: 400px;
+          height: 20px;
+          margin-top: 10px;
+          border: 1px #DADADA;
+          outline: none;
+      }
+
+      #pwdTest {
+          width: 400px;
+          height: 20px;
+          margin-top: 10px;
+          border: 1px #DADADA;
+          outline: none;
+      }
+
+      #name {
+          width: 435px;
+          height: 43px;
+          margin-top: 10px;
+          border: 1px solid #DADADA;
+          outline: none;
+      }
+
+      #year {
+          width: 140px;
+          height: 43px;
+          margin-top: 10px;
+          border: 1px solid #DADADA;
+          outline: none;
+      }
+
+      #day {
+          width: 140px;
+          height: 43px;
+          border: 1px solid #DADADA;
+          outline: none;
+      }
+
+      #emailCheck {
+          width: 435px;
+          height: 43px;
+          margin-top: 10px;
+          border: 1px solid #DADADA;
+          outline: none;
+      }
+
+      #getCode {
+          width: 338px;
+          height: 43px;
+          margin-top: 10px;
+          border: 1px solid #DADADA;
+          outline: none;
+      }
+
+      input[type=button] {
+          width: 94px;
+          height: 46px;
+          background-color: #03C75A;
+          border: 0;
+          color: white;
+      }
+
+      #setCode {
+          width: 436px;
+          height: 43px;
+          margin-top: 10px;
+          border: 1px solid #DADADA;
+          outline: none;
+      }
+
+      input[type=submit] {
+          width: 435px;
+          height: 50px;
+          background-color: #03C75A;
+          border: 0;
+          color: white;
+          font-size: 20px;
+      }
+      label{
+          position: relative;
+          right: 195px;
+          font-weight: bold;
+          
+      }
+      label[for="pwd"]{
+          position : relative;
+          right : 188px;
+      }
+      label[for="pwdTest"]{
+          position : relative;
+          right : 163px;
+      }
+      label[for="name"]{
+          position : relative;
+          right : 205px;
+      }
+      label[for="birth"]{
+          position : relative;
+          right : 190px;
+      }
+      label[for="gender"]{
+          position : relative;
+          right : 205px;
+      }
+      label[for="emailCheck"]{
+          position : relative;
+          right : 143px;
+      }
+      label[for="phone"]{
+          position : relative;
+          right : 187px;
+      }
+
+      
+  </style>
+</head>
+
+<body bgcolor="#F5F6F7">
+  <div id="login" style="margin: auto; text-align: center;">
+
+      <fieldset name="myform" style="display: inline-block; border: none;">
+          <br><br>
+          <img src="NaverLogo.png" width="200px" alt="NaverLogo" style="display: block; margin: 0 auto;"><br>
+          <label>아이디</label><br>
+          <input type="text" name="mid" id="mid" required="" autofocus="" value="@naver.com">
+          <br><br>
+          <label for="pwd">비밀번호</label>
+          <fieldset style="margin-top: 10px; width: 330; border: thin solid #DADADA; background: white;">
+          <input type="password" name="pwd" id="pwd" required="" placeholder="비밀번호"><i class="fas fa-lock fa-xs"></i>
+          </fieldset><br>
+          <label for="pwdTest">비밀번호 재확인</label><br>
+          <fieldset style="margin-top: 10px; width: 330; border: thin solid #DADADA; background: white;">
+          <input type="password" name="pwdTest" id="pwdTest" required="" placeholder="비밀번호 확인"><i class="far fa-check-square fa-xs"></i>
+          </fieldset><br>
+          <label for="name">이름</label><br>
+          <input type="text" name="name" id="name" required="" placeholder="이름"><br><br>
+          <label for="birth">생년월일</label><br>
+          
+          <input type="text" name="year" id="year" required="" placeholder="년(4자)">
+          <select style="height: 47px; width: 140px; border-color:#DADADA;" month="">
+              <option value="월">월</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+          </select>
+          <input type="text" name="day" id="day" required="" placeholder="일">
+          <br><br>
+          <label for="gender">성별</label><br>
+          <select style="height: 48px; width: 443px; margin-top: 10px;  border-color:#DADADA;" gender="">
+              <option value="성별">성별</option>
+              <option value="여자">여자</option>
+              <option value="남자">남자</option>
+              <option value="선택 안함">선택 안함</option>
+          </select><br><br>
+          <label for="emailCheck">본인 확인 이메일</label> <label for="emailCheck" style="font-size: 1px; color: gray;">(선택)</label><br>
+          <input type="text" name="emailCheck" id="emailCheck" placeholder="선택 입력"><br><br>
+          <label for="phone">휴대 전화</label><br>
+          <select phone="" style="height: 48px; width: 443px; margin-top: 10px;  border-color:#DADADA;">
+              <option value="대한민국 +82">대한민국 +82</option>
+              <option value="가나 +233">가나 +233</option>
+              <option value="가봉 +241">가봉 +241</option>
+              <option value="가이아나 +592">가이아나 +592</option>
+          </select><br>
+          <input type="text" name="getCode" id="getCode" required="" placeholder="전화번호 입력">
+          <input type="button" value="인증번호 받기"><br>
+          <input type="text" name="setCode" id="setCode" required="" placeholder="인증번호 입력하세요"><br>
+          <br>
+          <input type="submit" value="가입하기">
+      
+
+  </fieldset></div>
+
+
+</body>
+</html>

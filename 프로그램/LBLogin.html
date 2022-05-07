@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LBLogin</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+  <style>
+    a { /* a 태그 style 설정 */
+    text-align: center;
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: inherit; /* 링크의 색상 제거 */
+    }
+    </style>
+    <style>
+      #mid {
+          width: 435px;
+          height: 43px;
+          margin-top: 11px;
+          border: 1px solid #DADADA;
+          outline: none;
+      }
+
+      #pwd {
+        width: 435px;
+          height: 43px;
+          margin-top: 11px;
+          border: 1px solid #DADADA;
+          outline: none;
+      }
+
+      input[type=submit] {
+          width: 400px;
+          height: 43px;
+          background-color: #903;
+          border: 0;
+          color: white;
+          font-size: 20px;
+      }
+      input[type=button] {
+          width: 110px;
+          height: 30px;
+          background-color: #903;
+          border: 0;
+          color: white;
+          font-size: 13px;
+      }
+      input[type=button] {
+          width: 130px;
+          height: 30px;
+          background-color: #903;
+          border: 0;
+          color: white;
+          font-size: 13px;
+      }
+      input[type=button] {
+          width: 90px;
+          height: 43px;
+          background-color: #903;
+          border: 0;
+          color: white;
+          font-size: 13px;
+      }
+
+      label{
+          position: relative;
+          right: 193px;
+          font-weight: bold;
+          
+      }
+      label[for="pwd"]{
+          position : relative;
+          right : 185px;
+      }  
+  </style>
+</head>
+<body>
+  <div id="login" style="margin: auto; text-align: center;">
+    <fieldset name="myform" style="display: inline-block; border: none;">
+        <br><br>
+        <h2>로그인</h2>
+        <label ><b>아이디</b><font size="2px" color="#AF4034"></font></label><br/>
+        <input type="text" name="mid" id="mid" required="" autofocus="">
+        <br><br>
+        <label ><b>비밀번호</b><font size="2px" color="#AF4034"></font></label><br/>
+        <input type="password" name="pwd" id="pwd" required="" >
+        <br><br>
+        <input align="center" type="submit" value="로그인">
+      <br/><br/>
+      <a href="#" target="_top"><input type="button" value="아이디 찾기"></a>
+      <a href="#" target="_top"><input type="button" value="비밀번호 찾기"></a>
+      <a href="LBJoin.html" target="content"><input type="button" value="회원가입"></a>
+  </fieldset>
+</div>
+</body>
+</html>
