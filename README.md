@@ -1,4 +1,4 @@
-# Click 👉<a href = 'https://seongjaepark12.github.io/CLOCK/'> CLOCK</a>
+<!--# Click 👉<a href = 'https://seongjaepark12.github.io/CLOCK/'> CLOCK</a>-->
   - 목적 : Html 및 Css 연습
   - 시계 쇼핑몰을 위한 디자인 연습 
 
